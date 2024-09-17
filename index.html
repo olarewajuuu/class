@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mywebsite</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font start -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet"> -->
+    <!-- google font end -->
+    <style>
+      h1{
+        color: red;
+        /* background-color: aqua; */
+
+      }
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      /* font-family: 'Courier New', Courier, monospace; */
+      }
+      h4{
+        text-align:center;
+      }
+      input[name="firstname"]{
+        width: 100px;
+        height: 50px;
+      }
+      #head{
+        color: blue;
+      }
+      .subhead{
+        font-size: 36px;
+      }
+      .paragraph{
+        color: blueviolet;
+      }
+      .paragraphContainer .paragraph{
+        color: aqua;
+      }
+      .parent>p{
+        background-color: yellow;
+      }
+      a + p{
+        background-color: red;
+      }
+      .links a{
+        width: 100px;
+        height: 30px;
+        /* border: 1px solid black; */
+        padding: 15px;
+        margin: 50px 20px;
+        background-color: blue;
+        color: #fff;
+      }
+      .links a:hover{
+        background-color: red;
+        color: black;
+      }
+      .links a:visited{
+        background-color: blueviolet;
+      }
+      .links a:active{
+        border-bottom: 5px solid #fff;
+      }
+      .links input:focus{
+        border: none;
+        background-color: #5c5a5a;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1 id="head">Heading 1</h1>
+    <h1>Welcome</h1>
+    <h2 class="subhead">Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- paragraph -->
+    <p class="genFont">
+      Former Chelsea midfielder Mikel Obi has categorically stated that he will
+      do his utmost to see compatriot Victor Osimhen sign for the London club,
+      PUNCH Sports Extra reports.
+    </p>
+    <p class="paragraph">
+      The former Super Eagles captain, in a video posted on X, added that
+      another club legend, Didier Drogba, was also in contact with the Napoli
+      striker, as they hoped to convince him to make a switch to Stamford
+      Bridge.
+    </p>
+
+    <!-- List -->
+    <h4>List of Things at Home</h4>
+    <ul>
+      <li>Bed</li>
+      <li>Chair</li>
+      <li>Table</li>
+    </ul>
+
+    <ol>
+      <li>Bed</li>
+      <li>Chair</li>
+      <li>Table</li>
+    </ol>
+    <!-- div  -->
+    <div>
+      <div>
+        <h4>Myself</h4>
+        <div class="paragraphContainer">
+          <p class="paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            doloremque suscipit culpa labore delectus aut in, reprehenderit
+            facilis, ut laboriosam itaque quia dolores dolore officia, quis
+            dignissimos odio? Commodi, animi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            doloremque suscipit culpa labore delectus aut in, reprehenderit
+            facilis, ut laboriosam itaque quia dolores dolore officia, quis
+            dignissimos odio? Commodi, animi.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h4>Myself</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+          doloremque suscipit culpa labore delectus aut in, reprehenderit
+          facilis, ut laboriosam itaque quia dolores dolore officia, quis
+          dignissimos odio? Commodi, animi.
+        </p>
+      </div>
+      <div>
+        <h4>Myself</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+          doloremque suscipit culpa labore delectus aut in, reprehenderit
+          facilis, ut laboriosam itaque quia dolores dolore officia, quis
+          dignissimos odio? Commodi, animi.
+        </p>
+      </div>
+      <div>
+        <h4>Myself</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+          doloremque suscipit culpa labore delectus aut in, reprehenderit
+          facilis, ut laboriosam itaque quia dolores dolore officia, quis
+          dignissimos odio? Commodi, animi.
+        </p>
+      </div>
+    </div>
+    <input type="text" name="firstname">
+    <div class="parent">
+      <h4>Myself</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ve
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ve
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ve
+      </p>
+      <span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ve
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ve
+        </p>
+      </span>
+    </div>
+    <div>
+      <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <a href="">click me</a>
+      <p>Lorem ipsum dolor sit amet.1</p>
+      <p>Lorem ipsum dolor sit amet.2</p>
+      <a href="">click me</a>
+      <p>Lorem ipsum dolor sit amet.3</p>
+      <p>Lorem ipsum dolor sit amet.4</p>
+      <a href="">click me</a>
+      <p>Lorem ipsum dolor sit amet.5</p>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <div class="links">
+      <a href="https://Welcome.com"> click here</a>
+      <input type="text">
+    </div>
+
+    <div class="display">
+      <h1>container1</h1>
+      <h1 style="height: 30px;">container2</h1>
+      <h1 style="flex-grow: 2;">container3</h1>
+      <h1 style="flex-grow: 2;">container4</h1>
+      <h1 style="flex-grow: 4;">container4</h1>
+      <h1 style="flex-grow: 4;">container4</h1>
+      <h1>container4</h1>
+      <h1>container4</h1>
+      <h1>container4</h1>
+      <h1>container4</h1>
+      <h1>container4</h1>
+    </div>
+
+    <br><br> <br>
+
+    <div>
+      <div>
+        <h1></h1>
+        <h2></h2>
+      </div>
+      <div>
+        <div>
+          <img src="" alt="">
+          <h2></h2>
+          <h1></h1>
+          <div></div>
+          <div class="price">
+            <p></p>
+            <img src="" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
